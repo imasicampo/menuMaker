@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Documentation</title>
+<!-- CSS link -->
+    <link rel="stylesheet" href="scss/main.min.css" />
+    <link rel="icon" href="images/logo_menuMaker_white.png">
+<!-- GoogleFonts link -->
+     <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+<!-- Fontawesome-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home">
+      <div class="menu">
+        <span class="bar"></span>
+      </div>
+
+      <!-- Logo & Nav -->
+      <nav class="nav">
+        <a href="index.html" id="logo">
+          <img src="images/logo_menuMaker_white.png" alt="menuMaker logo" style="width:50px;">
+        </a>
+        <div class="overlay">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#fonts">Fonts</a></li>
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#tables">Tables and Grids</a></li>
+            <li><a href="#forms">Forms and Buttons</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End of Logo & Nav -->
+
+      <!-- Title -->
+      <div class="spaceAround">
+        <img src="images/logo_menuMaker_title_red.png" alt="menuMaker logo" class="logoLarge">
+        <!-- <p class="heading">MenuMaker</p> -->
+        <p class="heading">Documentation</p>
+      </div>
+      <!-- End of Title -->
+    </header>
+    <!-- End of Header -->
+
+    
+    <!-- Container -->
+    <div class="container centerText centerObject">
+      <!-- Instructions -->
+      <div>
+          <p class="subheading">How to use this document:</p>
+          <p class="maxText centerObject">Use this page as a reference. All available classes are used here. Copy and paste the class names into the class section of an element's opening tag.</p>
+          <div class="spaceAround">
+            <p>Example Code:</p>
+            <div class="description">
+              <pre>  
+                <code>
+                    &lt;p class="fontLobster fontMedium red"&gt;Hello World!&lt;/p&gt;
+                </code>
+              </pre>
+            </div>
+            <P>Results:</P>
+            <p class="fontMedium fontLobster red">Hello World!</p>
+            <p class="italic maxText centerObject">If you can't figure out the class. Right click to select and use your browser's "Inspect" mode to target an element and view it's relevant classes.</p>
+          </div>
+      </div>
+      <!-- End of Instructions -->
+
+      <!-- Fonts -->
+      <div id="fonts">
+        <!-- Font Sizes -->
+        <div class="spaceAround bgLightGray">
+            <p class="fontMedium uppercase underline">Font Sizes</p>
+            <div>
+                <p>Default Font Size</p>
+                <p class="heading">Heading</p>
+                <p class="subheading">Subheading</p>
+                <p class="fontXLarge">fontXLarge</p>
+                <p class="fontLarge">fontLarge</p>
+                <p class="fontMedium">fontMedium</p>
+                <p class="fontSmall">fontSmall</p>
+                <p class="fontXSmall">fontXSmall</p>
+            </div>
+        </div>
+        <!-- End of Font Sizes -->
+          
+        <!-- Font Families -->
+        <div class="spaceAround">
+            <p class="fontMedium uppercase underline">Font Families</p>
+            <div>
+                <p>Default Font Family</p>
+                <p class="fontMeddon">fontMeddon</p>
+                <p class="fontSpecialElite">fontSpecialElite</p>
+                <p class="fontOxygen">fontOxygen</p>
+                <p class="fontLobster">fontLobster</p>
+                <p class="fontMillGoudy">fontMillGoudy</p>
+                <p class="fontMontserrat">fontMontserrat</p>
+                <p class="fontPacifico">fontPacifico</p>
+                <p class="fontRoboto">fontRoboto</p>
+                <p class="fontRanga">fontRanga</p>
+                <p class="fontOpenSans">fontOpenSans</p>
+            </div>
+        </div>
+        <!-- End of Font Families -->
+
+        <!-- Font Decorations -->
+        <div class="spaceAround bgLightGray">
+            <p class="fontMedium uppercase underline">Font Decorations</p>
+            <div>
+              <div class="spaceAround">
+                <p>Use class="capitalize"</p>
+                <p class="capitalize">to capitalize the first letter of each word.</p>
+              </div>
+              <div class="spaceAround">
+                <p>Use class="uppercase"</p>
+                <p class="uppercase">to capitalize every letter.</p>
+              </div>
+              <div class="spaceAround">
+                <p>Use class="lowercase"</p>
+                <p class="lowercase">To Make Every Letter LOWERCASE.</p></div>
+              <div class="spaceAround">
+                <p>Use class="bold"</p>
+                <p class="bold">to bold the text.</p></div>
+              <div class="spaceAround">
+                <p>Use class="italic"</p>
+                <p class="italic">to italicize the text.</p></div>
+              <div class="spaceAround">
+                <p>Use class="underline"</p>
+                <p class="underline">to underline the text.</p>
+              </div>
+          </div>
+        <!-- End of Font Decorations -->
+        </div>
+      </div>
+      <hr>
+      <!-- End of Fonts -->
+      
+      <!-- Colors -->
+      <div id="colors">
+        <!-- Font Colors -->
+        <div class="spaceAround bgLightGray">
+          <p class="fontMedium uppercase underline">Colors</p>
+          <div>
+              <p>Default Font Color</p>
+              <p class="black">Black</p>
+              <p class="white">White</p>
+              <p class="blue">Blue</p>
+              <p class="yellow">Yellow</p>
+              <p class="green">Green</p>
+              <p class="purple">Purple</p>
+              <p class="pink">Pink</p>
+              <p class="red">Red</p>
+              <p class="fontShadow">fontShadow</p>
+          </div>
+        </div>
+        <!-- End of Font Colors -->
+        
+        <!-- bgColors -->
+        <div class="spaceInsideVertical centerObject responsive">
+            <p class="fontMedium uppercase underline">Background Colors</p>
+            <div class="gridHorizontal">
+              <p class="border gridHalf">Default with class="border"</p>
+              <p class="bgBlack gridHalf white">bgBlack</p>
+            </div>
+            <div class="gridHorizontal">
+              <p class="bgWhite gridHalf">bgWhite</p>
+              <p class="bgGray gridHalf">bgGray</p>
+            </div>
+            <div class="gridHorizontal">
+              <p class="bgBlue gridHalf">bgBlue</p>
+              <p class="bgYellow gridHalf">bgYellow</p>
+            </div>
+            <div class="gridHorizontal">
+                <p class="bgGreen gridHalf">bgGreen</p>
+                <p class="bgPurple gridHalf">bgPurple</p>
+            </div>
+            <div class="gridHorizontal">
+                <p class="bgPink gridHalf">bgPink</p>
+                <p class="bgRed gridHalf">bgRed</p>
+            </div>
+        </div>
+        <!-- End of bgColors -->
+      </div>
+      <hr>
+      <!-- End of Colors -->
+
+      <!-- Images -->
+      <div id="images" class="spaceAround">
+        <div>
+          <p class="fontMedium uppercase underline">Images</p>
+          <p class="fontMedium">To insert images:</p>
+          <p>Use the image tag correctly. And add the class "image-responsive" if you want it to resize with the browser window.</p>
+          <p>Example Code:</p>
+          <div class="description spaceAround">
+            <pre class="leftText">
+              <code>
+                &lt;img class="image-responsive src="images/example1.jpeg" alt="example 1"/&gt;
+              </code>
+            </pre>
+          </div>
+          <p>Results:</p>
+        </div>
+
+        <div class="centerObject">
+          <div class="spaceAround">
+            <img class="image-responsive" src="images/brick-wall-1834784_1280.jpg" alt="brick_wall"/>
+            <p class="italic">This is image has the class="image-responsive" and it resizes as you resize the page. Try it!</p>
+          </div>
+          <div class="spaceAround">
+              <img src="images/bg_bar_out.jpg" alt="bar exterior"/>
+              <p class="italic">This image is not responsive. It will disappear off the page at smaller viewports.</p>
+            </div>
+        </div>
+
+        
+        <div class="centerObject gridHorizontal">
+            <div class="spaceAround">
+                <img class="image-responsive" src="images/popcorn-1178242_1280.jpg" alt="popcorn"/>
+                <p class="italic">This is an image at normal opacity.</p>
+              </div>
+            <div class="spaceAround">
+              <img class="image-responsive seeThrough" src="images/popcorn-1178242_1280.jpg" alt="popcorn"/>
+              <p class="italic">This is an image has 80% opacity with a class of "seeThrough".</p>
+            </div>
+            <div class="spaceAround">
+                <img class="image-responsive seeThroughMore" src="images/popcorn-1178242_1280.jpg" alt="popcorn"/>
+                <p class="italic">This is an image has 60% opacity with a class of "seeThroughMore".</p>
+              </div>
+            <div class="spaceAround">
+                <img class="image-responsive grayScale" src="images/popcorn-1178242_1280.jpg" alt="popcorn"/>
+                <p class="italic">This is an image with class="grayScale".</p>
+              </div>
+          </div>
+        
+        <p>This image is contained within a &lt;div&gt; with the class of "flip-card".</p>
+        <p>Hover on it and see the code below:</p>
+        <div class="description">
+          <div>
+            <pre  class="leftText">
+                &lt;div class="flip-card"&gt;
+                    &lt;div class="flip-card-inner"&gt;
+                        &lt;div class="flip-card-front"&gt;
+                            &lt;img src="images/example1.jpeg" alt="example 1"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="flip-card-back"&gt;
+                            &lt;p&gt;Food Food Food&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            </pre>
+          </div>
+        </div>
+        <!-- Flip Card -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/rice-ladle-49694_1280.jpg" alt="example 1">
+                </div>
+                <div class="flip-card-back bgBlack">
+                    <p class="white">Food Food Food</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/iced-tea-241505_960_720.jpg" alt="example 1">
+                </div>
+                <div class="flip-card-back">
+                    <p class="purple bgPink">Drink Drink Drink</p>
+                </div>
+            </div>
+        </div>
+        <!-- End of Flip Card -->
+
+        <!-- Background Image -->
+        <div class="spaceAround maxText centerObject">
+          <p class="fontMedium uppercase underline">Background Image</p>
+          <p class="fontMedium">How to Use:</p>
+          <p>Place your image in the "images" folder.</p>
+          <p>Find the "background-images" section in the "main.min.css" file "SCSS" folder.</p>
+          <p>Alter the file path from any of the background-images (i.e. "background-image1.jpg") to the image you wish to use.</p>
+          <p>Then use that class (i.e. class="background-image1") on your &lt;div&gt; element!</p>
+          <div class="background-image3 white bold fontShadow seeThrough">
+            <p class="fontLarge">This background image allows for other elements</p>
+            <p class="fontLarge">LIKE TEXT</p>
+            <p class="fontLarge">to lay on top of it</p>
+          </div>
+
+        </div>
+        <!-- End of Background Image-->
+
+      </div>
+      <hr>
+      <!-- End of Images -->
+
+      <!-- Tables -->  
+      <div id="tables" class="fontMedium">
+        <!-- Bordered Table -->
+        <div class="spaceAround">
+          <p class="uppercase underline">Tables</p>
+          <p>This is a table that uses the "bordered" class:</p>
+          <table class="bordered centerObject">
+          <tr class="bgYellow">
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+          </tr>
+          <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+          </tr>
+          <tr>
+              <td>Centro Comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+          </tr>
+          <tr>
+              <td>Ernst Handel</td>
+              <td>Roland Mendel</td>
+              <td>Austria</td>
+          </tr>
+          <tr>
+              <td>Island Trading</td>
+              <td>Helen Bennett</td>
+              <td>UK</td>
+          </tr>
+          <tr>
+              <td>Laughing Bacchus Winecellars</td>
+              <td>Yoshi Tannamuri</td>
+              <td>Canada</td>
+          </tr>
+          <tr>
+              <td>Magazzini Alimentari Riuniti</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+          </tr>
+          </table>
+        </div>
+        <!-- End of Bordered Table-->
+
+        <!-- Striped Table -->
+        <div class="spaceAround">
+          <p>This is a table that uses the "striped" class:</p>
+          <table class="striped centerObject">
+          <tr class="bgLightGray">
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Points</th>
+          </tr>
+          <tr>
+              <td>Peter</td>
+              <td>Griffin</td>
+              <td>100</td>
+          </tr>
+          <tr class="bgPurple">
+              <td>Lois</td>
+              <td>Griffin</td>
+              <td>150</td>
+          </tr>
+          <tr>
+              <td>Joe</td>
+              <td>Swanson</td>
+              <td>300</td>
+          </tr>
+          <tr class="bgPurple">
+              <td>Cleveland</td>
+              <td>Brown</td>
+              <td>250</td>
+          </tr>
+          </table>
+        </div>
+        <!-- End of Striped Table -->
+
+        <!-- Responsive Table -->
+        <div class="spaceAround">
+          <p>This is a table with the "responsive" and "bordered" class:</p>
+          <table class="bordered responsive">
+          <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Earnings</th>
+          </tr>
+          <tr>
+              <td>Peter</td>
+              <td>Griffin</td>
+              <td>$100</td>
+          </tr>
+          <tr>
+              <td>Lois</td>
+              <td>Griffin</td>
+              <td>$150</td>
+          </tr>
+          <tr>
+              <td>Joe</td>
+              <td>Swanson</td>
+              <td>$300</td>
+          </tr>
+          <tr>
+              <td>Cleveland</td>
+              <td>Brown</td>
+              <td>$250</td>
+          </tr>
+          </table>
+        </div>
+        <!-- End of Responsive Table -->
+      </div>
+      <hr>
+      <!-- End of Tables -->
+
+      <!-- Flex Grid -->
+    
+      <div class="spaceAround">
+        <p class="fontMedium uppercase underline">Flexy Grid</p>
+        <p class="fontMedium">This is the flexy grid,this grid is responsive!</p>
+        <p>Use the html starter code below, along with the class names indicated in the below example to create the flexy grid.</p>
+      </div>
+      <div class="description">
+          <div class="code">
+           <pre  class="leftText">
+             &lt;div class="flexWrapper responsive"&gt;
+      
+            &lt;section&gt;
+              &lt;div class="gridHorizontal"&gt;
+                  &lt;div class="gridFull column"&gt;
+                      &#60;header&#62; class="gridFull" &#60;/header&#62; 
+               &lt;/div&gt;
+            &lt;/div&gt;
+                  
+            &lt;div class="gridHorizontal"&gt;
+               &lt;div class="column gridHalf"&gt;
+                  &#60;section&#62; class="gridHalf" &#60;/section&#62;
+               &lt;/div&gt;
+               &lt;class="column gridHalf"&gt;
+                  &#60;section&#62; class="gridHalf" &#60;/section&#62; 
+               &lt;/div&gt;
+            &lt;/div&gt;
+                  
+            &lt;div class="gridHorizontal"&gt;
+                &lt;div class="column gridThird"&gt;
+                    &#60;article&#62; class="gridThird" &#60;/article&#62;
+                &lt;/div&gt;
+                &lt;div class="column gridThird"&gt;
+                     &#60;article&#62; class="gridThird" &#60;/article&#62;
+                &lt;/div&gt;
+                &lt;div class="column gridThird"&gt;
+                     &#60;article&#62; class="gridThird" &#60;/article&#62;
+                &lt;/div&gt;
+            &lt;/div&gt;
+                  
+            &lt;div class="gridHorizontal"&gt;
+                &lt;div class="column gridFourth"&gt;
+                     &#60;section&#62; class="gridFourth" &#60;/section&#62;
+                &lt;/div&gt;
+                  
+                &lt;div class="column gridFull"&gt;
+                     &#60;article&#62; class="gridFull" &#60;/article&#62;
+                &lt;/div&gt;
+            
+                &lt;div class="column gridFull"&gt;
+                      &#60;article&#62; class="gridFull" &#60;/article&#62;
+                &lt;/div&gt;
+            
+                &lt;div class="column gridHalf"&gt;
+                      &#60;aside&#62; class="gridHalf" &#60;/aside&#62;
+                &lt;/div&gt;
+            &lt;/div&gt;
+                  
+            &lt;div class="gridHorizontal"&gt;
+                &lt;div class="column gridFull"&gt;
+                    &#60;footer&#62; class="gridFull" &#60;/footer&#62;
+                &lt;/div&gt;
+            &lt;/div&gt;
+      
+            &lt;/section&gt;
+            </pre>
+            </div> <!--end code div-->
+          </div><!-- end  description div -->
+      
+        <div class="flexWrapper responsive">
+          <section>
+          <div class="gridHorizontal">
+              <div class="gridFull column">
+                <code>&#60;header&#62; class="gridFull" &#60;/header&#62;</code> 
+              </div>
+          </div>
+            
+          <div class="gridHorizontal">
+            <div class="column gridHalf">
+              <code>&#60;section&#62; class="gridHalf" &#60;/section&#62;</code> 
+            </div>
+            <div class="column gridHalf">
+              <code>&#60;section&#62; class="gridHalf" &#60;/section&#62;</code> 
+            </div>
+          </div>
+            
+            <div class="gridHorizontal">
+              <div class="column gridThird">
+                  <code>&#60;article&#62; class="gridThird" &#60;/article&#62;</code> 
+              </div>
+              <div class="column gridThird">
+                  <code>&#60;article&#62; class="gridThird" &#60;/article&#62;</code> 
+              </div>
+              <div class="column gridThird">
+                  <code>&#60;article&#62; class="gridThird" &#60;/article&#62;</code> 
+              </div>
+            </div>
+            
+            <div class="gridHorizontal">
+              <div class="column gridFourth">
+                  <code>&#60;section&#62; class="gridFourth" &#60;/section&#62;</code> 
+              </div>
+            
+              <div class="column gridFull">
+                  <code>&#60;article&#62; class="gridFull" &#60;/article&#62;</code> 
+              </div>
+      
+              <div class="column gridFull">
+                  <code>&#60;article&#62; class="gridFull" &#60;/article&#62;</code> 
+              </div>
+      
+              <div class="column gridHalf">
+                  <code>&#60;aside&#62; class="gridHalf" &#60;/aside&#62;</code> 
+              </div>
+            </div>
+            
+            <div class="gridHorizontal">
+                <div class="column gridFull">
+                   <code>&#60;footer&#62; class="gridFull" &#60;/footer&#62;</code> 
+                </div>
+            </div>
+            </section>
+            
+            </div>
+
+      <!-- End of Flex Grid -->
+
+      <!-- Forms --> 
+      <div id="forms">
+        <div>
+          <p class="fontMedium uppercase underline">Forms</p>
+          <p class="fontMedium">This is a form.</p>
+          <p>To use forms:</p>
+          <p>Copy this html template</p>
+          <div class="description">
+              <pre  class="leftText">
+
+                  
+              </pre>
+          </div>
+        </div>
+        <div class="container fontSmall">
+          <form action="/action_page.php" class="centerObject bgBlue spaceInside">
+            <p class="fontMedium centerText">Tell us more about yourself!</p>
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Country</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Diet</label>
+                </div>
+                <div class="col-75">
+                    <div>
+                        <input type="radio" id="r1" name="choices" value="meat">
+                        <label for="r1"> Meat Lover</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="r2" name="choices" value="veggie">
+                        <label for="r2"> Vegetarian</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="r3" name="choices" value="steak">
+                        <label for="r3"> Fish</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height:200px"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label>Check to Receive:</label>
+              </div>
+              <div class="col-75">
+                  <input type="checkbox" id="c1" name="newsletter">
+                  <label for="c1">Newsletter</label>
+                
+                  <input type="checkbox" id="c2" name="menus">
+                  <label for="c2">Example Menus</label>
+                
+                  <input type="checkbox" id="c3" name="info">
+                  <label for="c3">More Information</label>
+              </div>
+
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- End of Forms -->
+        
+      <!-- Buttons -->
+      <div id="buttons">
+          <p class="fontMedium uppercase underline">Buttons</p>
+          <p class="fontMedium">How to Use Buttons</p>
+          <ul class="fontSmall">
+              <li><p>Add class "button" to the element.</p></li>
+              <li><p>Add the size class.</p></li>
+              <li><p>Add the color class.</p></li>
+              <li><p>Or choose your own background color (without color change on hover).</p></li>
+          </ul>
+          <div class="fontSmall">
+              <br />
+              <button class="button">I'm class="button", hover on me</button>
+              <br />
+              <br />
+              <button class="button buttonDark">I'm class="button buttonDark"</button>
+              <br />
+              <br />
+              <button class="button buttonLight">I'm class="button buttonLight"</button>
+              <br />
+              <br />
+              <button class="button buttonGreen">I'm class="button buttonGreen"</button>
+              <br />
+              <br />
+              <button class="button buttonBlue">I'm class="button buttonBlue"</button>
+              <br />
+              <br />
+              <button class="button buttonRed">I'm class="button buttonRed"</button>
+              <br />
+              <br />
+              <button class="button bgPink">I'm class="button bgPink"</button>
+              <br />
+              <button class="button extra-small">I'm an extra small button</button>
+              <br />
+              <button class="button small">I'm a small button</button>
+              <br />
+              <button class="button normal">I'm a normal button</button>
+              <br />
+              <button class="button large">I'm a large button</button>
+              <br />
+              <button class="button extra-large">I'm an extra-large button</button>
+              <br />
+              <button class="button active">I'm an active button</button>
+              <br />
+              <!-- <input type="button" value="Button" />
+              <br />
+              <input type="reset" value="Reset" />
+              <br />
+              <input type="submit" value="Submit" />
+              <br /> -->
+          </div>
+      </div>
+      <!-- End of Buttons -->
+
+      <!-- Search Bar -->
+      <div class="flexbox spaceAround bgBlue">
+          <div class="search">
+            <p class="fontMedium uppercase underline">Search this site</p>
+            <h3>Click on search icon, then type your keyword.</h3>
+            <div>
+              <input type="text" placeholder="       Search . . ." required>
+            </div>
+          </div>
+        </div>
+        <hr>
+      <!-- End of Search Bar -->
+
+      <!-- Layout -->
+      <div class="spaceAround white">
+        <p class="fontMedium uppercase underline black">Layouts</p>
+        <div class="spaceAround bgBlue">
+          <p class="border">The &lt;div&gt; surrounding this &lt;p&gt; tag has a class="spaceAround" - margin all around</p>
+        </div>
+        <div class="spaceVertical bgLightGray black">
+          <p class="border">The &lt;div&gt; surrounding this &lt;p&gt; tag has a class="spaceVertical" - margin top and bottom</p>
+        </div>
+        <div class="spaceHorizontal bgPurple">
+          <p class="border">The &lt;div&gt; surrounding this &lt;p&gt; tag has a class="spaceHorizontal" - margin left and right</p>
+        </div>
+        <div class="spaceInside border spaceAround bgRed">
+          <p>The &lt;div&gt; surrounding this &lt;p&gt; tag has a class="spaceInside" - padding all around</p>
+        </div>
+        <div class="spaceInsideVertical border spaceAround bgGreen">
+          <p>The &lt;div&gt; surrounding this &lt;p&gt; tag has a class="spaceInsideVertical" - padding top and bottom</p>
+        </div>
+        <div class="spaceInsideHorizontal border spaceAround bgYellow">
+          <p>The &lt;div&gt; surrounding this &lt;p&gt; tag has a class="spaceInsideHorizontal" - padding left and write</p>
+        </div>
+        <div class="maxText border spaceAround bgBlack white">
+          <p>The &lt;div&gt; surrounding this &lt;p&gt; tag has a class="maxText" ... It prevents the text from extended beyond a width of optimal readability.</p>
+        </div>
+        <div class="maxText centerObject border spaceAround bgPink">
+          <p>The text above is centered within its &lt;div&gt; because the body has class of "centerText", but the &lt;div&gt; is not centered within its container. This &lt;div&gt; has a class="maxText centerObject"... So it IS centered within its container!</p>
+        </div>
+
+      </div>
+      <!-- End of Layout-->
+
+    <!-- Back to Top Button -->
+    <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+    <!-- End of Back to Top Button -->
+  </div>
+  <!-- End of Container -->
+
+    <footer class="social">
+        <a class="icon" href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a class="icon" href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a>
+        <a class="icon" href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="icon" href="https://www.yelp.com/" target="_blank">
+            <i class="fab fa-yelp"></i>
+        </a>
+        <a class="icon" href="https://www.youtube.com/" target="_blank">
+          <i class="fab fa-youtube-square"></i>
+        </a>
+        <br><br>
+        <div class="copyright">
+            <p class='fontXSmall'>&copy;MenuMaker 2019 Designed and Developed by CJ DuQue, Isaac
+              Masicampo and Rodion Yermakov</p>
+        </div>
+    
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+  </body>
+</html>

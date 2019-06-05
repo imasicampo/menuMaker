@@ -1,0 +1,21 @@
+table.striped {
+    border-collapse: collapse;
+	th, td {
+        text-align: left;
+        padding: 8px;
+	}
+	tr:nth-child(even) {
+        background-color: $oceanBlue;
+        color: $white;
+	}
+}
+
+table.bordered {
+	td, th {
+        border: 1px solid $black;
+	}
+}
+
+table.responsive {
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+// base elements styles
+body {
+	background: $lightGray;
+	color: $black;
+	font-family: $font-stack;
+	font-size: $font-size;
+}
+
+b,
+em,
+i,
+small,
+strong,
+sub,
+sup,
+ins,
+del,
+mark,
+abbr,
+address,
+blockquote,
+li {
+	display: inline;
+}
+
+.description {
+	background-color: #fff;
+	padding: .5em;
+	margin: 1em auto;
+	box-shadow: -1px -1px 4px #000;
+	border-radius: 3px;
+	display:flex;
+	flex-direction: column;
+	max-width: 600px;
+	max-height: 66px;
+	overflow-y: scroll;
+}

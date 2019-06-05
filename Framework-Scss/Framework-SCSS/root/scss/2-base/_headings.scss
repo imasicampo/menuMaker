@@ -1,0 +1,40 @@
+// Golden Ration 1.618
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: $font-heading;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 69px;
+}
+
+h3 {
+	font-size: 42px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 10px;
+}

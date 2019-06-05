@@ -1,0 +1,228 @@
+// NAVIGATION
+
+//CJ:
+.menu {
+  padding: 1.1rem 1.4rem;
+  position: fixed;
+  top: 1rem;
+  right: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.menu .bar:before {
+  top: -1.2rem;
+}
+
+.menu .bar::after {
+  top: 1.2rem;
+}
+.menu .bar {
+  top: 0;
+}
+
+.menu .bar,
+.menu .bar::before,
+.menu .bar::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 2rem;
+  background-color: white;
+  //	top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: 650ms;
+}
+
+.active .bar {
+  background-color: transparent;
+}
+
+.active .bar::before {
+  transform: rotate(45deg);
+}
+
+.active .bar::after {
+  transform: rotate(-45deg);
+}
+
+.active .bar::before,
+.active .bar::after {
+  top: 0;
+}
+
+#logo {
+  // display: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  position: absolute;
+  left: 2rem;
+}
+.pLogo {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+.logoLarge {
+  width: 50%;
+  max-width: 200px;
+}
+.logoSmall {
+  width: 50px;
+}
+
+.nav {
+  width: 100%;
+  height: 4rem;
+  line-height: 6rem;
+  position: relative;
+}
+
+.nav .overlay ul {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav .overlay ul li {
+  text-transform: uppercase;
+}
+
+.nav .overlay ul li a {
+  display: block;
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  transition: all 650ms;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.95);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  transition: opacity 650ms;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.overlay.menu-open {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.nav .overlay ul li a:hover,
+.nav .overlay ul li a .active:hover {
+  color: lightsalmon;
+}
+
+@media (min-width: 769px) {
+  //CJ:
+  .menu {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    padding: 0.25rem 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+    background-color: black;
+    .overlay {
+      position: initial;
+      background: none;
+      opacity: initial;
+      transform: initial;
+      ul {
+        flex-direction: row;
+        list-style: none;
+        margin-top: 2px;
+        li {
+          text-transform: none;
+          a {
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            margin-right: -1px;
+            padding: 0.5rem 0.8rem;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  #logo {
+    display: block;
+    position: static;
+  }
+  .pLogo {
+    display: block;
+    position: static;
+  }
+  .btn-info {
+    font-size: 1.8rem;
+  }
+  .main-text {
+    h1 {
+      transform: translateY(4rem);
+      opacity: 0;
+      animation: 0.5s fadeUp 0.5s forwards;
+    }
+    h2 {
+      transform: scale(2);
+      opacity: 0;
+      animation: fadeIn 0.5s forwards;
+    }
+  }
+  .main-btn {
+    opacity: 0;
+    animation: 0.5s fade 1s forwards;
+  }
+  @keyframes fadeIn {
+    0% {
+      transform: scale(2);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeUp {
+    0% {
+      transform: translateY(4rem);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .nav .overlay ul li a {
+    font-size: 1.1rem;
+  }
+}

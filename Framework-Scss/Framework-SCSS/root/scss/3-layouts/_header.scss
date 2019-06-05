@@ -1,0 +1,26 @@
+//header
+//	border-radius: 100%
+//	height: 200px
+//	width: 200px
+//	line-height: 200px
+//	text-align: center
+//	margin: 0 auto
+//	background: url(../images/dive.jpg) no-repeat center center $oceanBlue
+//	color: white
+//	h1
+//		display: none
+//		line-height: 1
+//		padding-top: 40%
+
+header {
+	width: 100%;
+	// height: 100vh;
+	// background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent), url("images/hero.jpeg") bottom no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+	overflow-wrap: break-word;
+}
+/* So you could use left|right|top|bottom to move element around the page*/

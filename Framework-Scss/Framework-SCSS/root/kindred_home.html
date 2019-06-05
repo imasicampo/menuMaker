@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kindred - Home</title>
+<!-- CSS link -->
+    <link rel="stylesheet" href="scss/main.min.css" />
+    <link rel="icon" href="images/logo_kindred_optimized.png">
+<!-- GoogleFonts link -->
+     <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+<!-- Fontawesome-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  </head>
+  <body class="bgBlack">
+    <!-- Header -->
+    <header id="home" class="background-image4 container-medium centerObject">
+      <div class="menu">
+        <span class="bar"></span>
+      </div>
+
+      <!-- Logo & Nav -->
+      <nav class="nav">
+        <a href="index.html" id="logo">
+          <img src="images/logo_kindred_optimized.png" alt="menuMaker logo" class="logoSmall">
+        </a>
+        <div class="overlay">
+          <ul>
+            <li><a href="kindred_home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="kindred_menu.html">Menu</a></li>
+            <!-- <li><a href="documentation.html">Documentation</a></li> -->
+            <!-- <li><a href="index.html">MenuMaker</a></li> -->
+          </ul>
+        </div>
+      </nav>
+      <!-- End of Logo & Nav -->
+
+      <!-- Title -->
+      <div class="spaceAround">
+        <p class="fontXLarge fontLobster fontShadow white">Kindred</p>
+        <p class="subheading white fontSpecialElite seeThrough fontShadow">good drinks. good eats.</p>
+      </div>
+      <!-- End of Title -->
+      <!-- Buttons -->
+      <div class="responsiveGrid split2 spaceVertical">
+        <a href="#" class="button buttonLight seeThrough boxShadow">
+          <p class="fontMedium fontMillGoudy">Reserve</p>
+        </a>
+        <a href="kindred_menu.html" class="button buttonLight seeThrough boxShadow">
+          <p class="fontMedium fontMillGoudy">Menu</p>
+        </a>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    
+    <!-- Container -->
+    <div class="container-medium centerText centerObject background-image-fixed white">
+      <!-- Intro -->
+      <div id="about">
+        <img src="images/logo_kindred_white.png" alt="logo kindred" class="logoLarge spaceAround">
+        <p class="subheading fontSpecialElite">Who are we?</p>
+        <div class="maxText centerObject fontMillGoudy spaceAround">
+            <p>Here at Kindred we believe in two things:</p>
+            <p>Firstly, <span class="uppercase">everyone</span> deserves to have a great night out without having to sacrifice on food and beverage.</p>
+            <p>Secondly, this even applies if you're <span class="uppercase italic">vegan</span>.</p>
+        </div>
+        <div class="background-image1 grayHalf">
+            <div class="fontSpecialElite spaceInside">
+                <p class="fontLarge fontShadow">100% Vegan Friendly</p>
+                <br/><br/>
+                <p class="fontLarge fontShadow">100% Delicious</p>
+            </div>
+        </div>
+      </div>
+      <!-- End of Intro -->
+
+      <!-- Why -->
+      <div>
+        <div class="spaceAround">
+            <p class="subheading fontSpecialElite">Who are we?</p>
+            <div class="maxText centerObject fontMillGoudy spaceAround">
+                <p>If you've recently noticed a big crowd gathering on the corner of 30th and Beech Street in South Park it's probably because of Kindred. Our neighborhood restaurant and bar just celebrated our first year and we hope there are many more to come!</p>
+                <p>Not only do we serve tasty food and drinks, our restaurant is breathtaking. A 35-foot marble bar dominates most of the room, while a four-eyed wolf head sculpture with snakes for horns hangs along the wall.</p>
+                <p>Over the top? Maybe. Awesome as heck. You bet your butt.</p>
+            </div>
+            <div class="background-image2 grayScale">
+                <div class="fontLobster spaceInside">
+                    <p class="fontLarge fontShadow">Come join us Fourth of July Weekend!</p>
+                    <br/><br/>
+                    <p class="fontLarge fontShadow">As we get super patriotic ...</p>
+                    <br/><br/>
+                    <p class="fontLarge fontShadow">And just a little bit weird.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- End of Why -->
+    <!-- Forms --> 
+      <div id="forms">
+        <div class="fontSmall spaceAround fontMillGoudy">
+          <form action="/action_page.php" class="centerObject bgBlack seeThroughMore spaceInside">
+            <p class="centerText uppercase fontSpecialElite">Participate in our latest survey!</p>
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="where">Where You From?</label>
+              </div>
+              <div class="col-75">
+                <select id="where" name="where">
+                  <option value="sanDiego">San Diego</option>
+                  <option value="otherCA">Another City in Cali</option>
+                  <option value="otherState">Another State</option>
+                  <option value="outtaTown">Way Outta Town</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label>Diet</label>
+                </div>
+                <div class="col-75">
+                    <div>
+                        <input type="radio" id="r1" name="choices" value="meat">
+                        <label for="r1"> Carnivore</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="r2" name="choices" value="veggie">
+                        <label for="r2"> Veggiesaurus</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="r3" name="choices" value="steak">
+                        <label for="r3"> Veganese</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-50">
+                  <label>What Would You Like To See More Of?</label>
+                </div>
+                <div class="col-50">
+                    <input type="checkbox" id="c1" name="jackfruit">
+                    <label for="c1">Jackfruit</label>
+                  
+                    <input type="checkbox" id="c2" name="beets">
+                    <label for="c2">Beets</label>
+                  
+                    <input type="checkbox" id="c3" name="seitan">
+                    <label for="c3">Seitan</label>
+
+                    <input type="checkbox" id="c4" name="drinks">
+                    <label for="c4">Just drinks</label>
+                </div>
+  
+              </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Anything else?</label>
+              </div>
+              <div class="col-75">
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Don't say meat ..."
+                  style="height:200px"
+                ></textarea>
+              </div>
+            </div>
+            
+            <div class="row">
+              <a class="button normal buttonLight seeThrough">Submit</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <img src="images/kindred_wolf_white.gif" alt="logo kindred" class="logoLarge spaceAround">
+      <!-- End of Forms -->
+      
+      <!-- Back to Top Button -->
+        <button id="topBtn" class="bgBlack white"><i class="fas fa-arrow-up"></i></button>
+      <!-- End of Back to Top Button -->
+
+    </div>
+    <!-- End of Container -->
+    <footer class="social bgBlack white fontSmall">
+        <a class="icon" href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a class="icon" href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a>
+        <a class="icon" href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="icon" href="https://www.yelp.com/" target="_blank">
+            <i class="fab fa-yelp"></i>
+        </a>
+        <a class="icon" href="https://www.youtube.com/" target="_blank">
+          <i class="fab fa-youtube-square"></i>
+        </a>
+        <br><br>
+        <div class="copyright">
+            <p class='fontSmall fontSpecialElite'>&copy;Kindred 2019</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+  </body>
+</html>

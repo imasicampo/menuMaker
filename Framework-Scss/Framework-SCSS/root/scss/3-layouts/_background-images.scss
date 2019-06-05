@@ -1,0 +1,36 @@
+.background-image1 {
+  background: url(./../images/cafe-3537801_1280.jpg) no-repeat;
+  background-size: cover;
+}
+.background-image2 {
+  background: url(./../images/bg_bar_in.jpg) no-repeat;
+  background-size: cover;
+}
+.background-image3 {
+  background: url(./../images/brick-wall-1834784_1280.jpg) no-repeat;
+  background-size: cover;
+}
+.background-image4 {
+  background: url(./../images/bar-918541_1280.jpg) no-repeat;
+  background-size: cover;
+}
+
+.background-image-fixed {
+  background: url(./../images/bg_dark.jpg) fixed;
+  background-size: cover;
+}
+
+.bgCasual {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent),
+    url(./../images/pizzaBanner.jpg) bottom no-repeat;
+  background-size: cover;
+}
+
+.bgCasual2 {
+  width: 100%;
+  height: 100%;
+  background: url(./../images/togo.jpg) repeat-x;
+  background-size: contain;
+}

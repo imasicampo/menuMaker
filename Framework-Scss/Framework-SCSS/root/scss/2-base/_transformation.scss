@@ -1,0 +1,43 @@
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+.border {
+	border: solid 1px #000;
+}
+.grayScale {
+	filter: grayscale(100%);
+}
+.grayHalf {
+	filter: grayscale(50%);
+}
+.seeThrough {
+	opacity: .8;
+}
+.seeThroughMore {
+	opacity: .6;
+}
+.fontShadow {
+	text-shadow: .2rem .2rem .5rem #000;
+}
+.boxShadow {
+	box-shadow: .2rem .2rem .2rem #000;
+}

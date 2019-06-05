@@ -1,0 +1,86 @@
+// RESPONSIVE
+.responsive {
+  width: 100%;
+}
+
+.responsiveImage {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.spaceAround {
+  margin: 2rem 0.5rem;
+}
+.spaceVertical {
+  margin: 2rem 0;
+}
+.spaceHorizontal {
+  margin: 0 2rem;
+}
+.spaceInside {
+  padding: 2rem;
+}
+.spaceInsideVertical {
+  padding: 2rem 0;
+}
+.spaceInsideHorizontal {
+  padding: 0 2rem;
+}
+.spaceNone {
+  margin: 0;
+}
+.spaceNoneBottom {
+  margin-bottom: 0;
+}
+
+.centerText {
+  text-align: center;
+}
+.leftText {
+  text-align: left;
+}
+.centerObject {
+  margin-left: auto;
+  margin-right: auto;
+}
+.maxText {
+  max-width: 560px;
+}
+.maxWidthMedium {
+  max-width: 960px;
+}
+
+.responsiveGrid {
+  display: flex;
+}
+
+.gridFull {
+  flex: 1;
+}
+
+.gridHalf {
+  flex: 2;
+}
+
+.gridThird {
+  flex: 3;
+}
+
+.gridFourth {
+  flex: 4;
+}
+
+.gridHorizontal {
+  flex-direction: row;
+}
+
+.gridVertical {
+  flex-direction: column;
+}
+
+.split {
+  justify-content: space-between;
+}
+.split2 {
+  justify-content: space-around;
+}

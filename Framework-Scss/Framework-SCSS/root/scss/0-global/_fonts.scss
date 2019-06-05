@@ -1,0 +1,97 @@
+// FONTS
+
+
+// Font Families
+
+.fontOpenSans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fontRanga {
+	font-family: 'Ranga', cursive;
+}
+
+.fontRoboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+.fontPacifico {
+	font-family: 'Pacifico', cursive;
+}
+
+.fontMontserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fontMillGoudy {
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
+.fontLobster {
+	font-family: 'Lobster', serif;
+}
+
+.fontOxygen {
+	font-family: 'Oxygen', sans-serif;
+}
+
+.fontSpecialElite {
+	font-family: 'Special Elite', cursive;
+}
+
+.fontMeddon {
+	font-family: 'Meddon', cursive;
+}
+
+// Font Sizes
+
+p {
+	font-size: 1.1rem;
+	padding: .25rem;
+}
+.heading {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.subheading {
+	font-size: 1.4rem;
+}
+.fontXSmall {
+	font-size: .7rem;
+}
+.fontSmall {
+	font-size: .9rem;
+}
+.fontMedium {
+	font-size: 1.4rem;
+}
+.fontLarge {
+	font-size: 2rem;
+}
+.fontXLarge {
+	font-size: 2.5rem;
+}
+.fontResponsive {
+	font-size: 10vw;
+}
+
+@media (min-width: 365px) {
+	.heading {
+		font-size: 2.4rem;
+	}
+	.subheading {
+		font-size: 2rem;
+	}
+	.fontLarge {
+		font-size: 3rem;
+	}
+	.fontXLarge {
+		font-size: 3.1rem;
+}
+}
+
+@media (min-width: $breakpoint-mobile) {
+	.fontXLarge {
+		font-size: 3.4rem;
+	}
+}

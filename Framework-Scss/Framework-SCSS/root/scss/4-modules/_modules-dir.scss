@@ -1,0 +1,11 @@
+// MODULES
+// page component
+// pulls in all base files
+// usually are more descrete components of the page, navigation bar, carousel, popup window, dialogues, all sorts of widgets, avoid using id and element selectors, stick to the class names, it is likely that you will be using descendets and child selectors to target those elements
+
+@import "_wrappedItems";
+@import "_navigation";
+@import "_scroll-top-button";
+@import "_searchBox.scss";
+@import "_flipcard.scss";
+@import "_modal.scss";

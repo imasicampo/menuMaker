@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rodion's Demo Site</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="scss/main.min.css" />
+    <link rel="icon" href="images/logo_menuMaker_white.png" />
+    <!-- GoogleFonts link -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <div class="menu">
+        <span class="bar"></span>
+      </div>
+
+      <!-- Logo & Nav -->
+      <nav class="nav">
+        <a href="index.html" id="logo">
+          <img
+            src="images/logo_menuMaker_white.png"
+            alt="menuMaker logo"
+            class="logoSmall"
+          />
+        </a>
+        <div class="overlay">
+          <ul>
+            <!-- <li><a href="documentation.html">Documentation</a></li> -->
+            <!-- <li><a href="rodion.html">Rodion</a></li> -->
+            <!-- <li><a href="kindred_home.html">Isaac</a></li> -->
+            <!-- <li><a href="Pizza-Site.html">CJ DuQue</a></li> -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End of Logo & Nav -->
+
+      <!-- Title -->
+      <div class="spaceAround">
+        <p class="heading">Rodion's Demo Site</p>
+      </div>
+      <!-- End of Title -->
+      <!-- Search Bar -->
+      <div class="flexbox spaceAround bgPurple white">
+        <div class="search">
+          <p class="fontMedium uppercase">
+            Find the best food near you
+          </p>
+          <h3 class="yellow">Click on search icon, then type your keyword.</h3>
+          <div>
+            <input type="text" placeholder="City, State or Zip" required />
+          </div>
+        </div>
+      </div>
+      <!-- End of Search Bar -->
+    </header>
+    <!-- End of Header -->
+    <div class="gridVertical gridHorizontalLarge">
+      <!-- Flip Card -->
+      <div class="flip-card centerObject spaceVertical">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/Tacos.png" alt="tacos" />
+          </div>
+          <div class="flip-card-back bgPurple">
+            <p class="leftText spaceAround">
+              These supereasy chicken tacos are packed with tasty shredded thigh
+              meat, tomatoes and spicy jalapeños. <br />
+              <br />
+              Pair these tacos with an ice-cold canned Mexican lager.
+            </p>
+            <button class="button bgGreen black">ADD TO BAG</button>
+            <button class="button bgRed white">DELIVER NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- End of Flip Card -->
+      <!-- Flip Card -->
+      <div class="flip-card centerObject spaceVertical">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/Salad.png" alt="salad" />
+          </div>
+          <div class="flip-card-back bgPurple">
+            <p class="leftText spaceAround">
+              Double fajita vegetables, cheese, guacamole, white rice, fresh
+              tomato salsa, no dressing. <br />
+              <br />
+              Contain healthy fats and will not harm you unless you have too
+              much.
+            </p>
+            <button class="button bgGreen black">ADD TO BAG</button>
+            <button class="button bgRed white">DELIVER NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- End of Flip Card -->
+      <!-- Flip Card -->
+      <div class="flip-card centerObject spaceVertical">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/Kidsmeal.png" alt="kidsMenu" />
+          </div>
+          <div class="flip-card-back bgPurple">
+            <p class="leftText spaceAround">
+              A cheese quesadilla with a side of rice and beans, or a “build
+              your taco plate,”
+              <br />
+              <br />
+              Choice of one protein and two fillings with soft or crispy
+              tortillas on the side.
+            </p>
+            <button class="button bgGreen black">ADD TO BAG</button>
+            <button class="button bgRed white">DELIVER NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- End of Flip Card -->
+      <!-- Flip Card -->
+      <div class="flip-card centerObject spaceVertical">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/sidesDrinks.png" alt="Sides and Drinks" />
+          </div>
+          <div class="flip-card-back bgPurple">
+            <p class="leftText spaceAround">
+              Non-alcoholic drinks will include watermelon agua fresca, a
+              hibiscus tea, and a new iced tea.
+              <br />
+              <br />
+              Double fajita veggies, double black beans, guacamole, tomatillo
+              green-chili salsa
+            </p>
+            <button class="button bgGreen black">ADD TO BAG</button>
+            <button class="button bgRed white">DELIVER NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- End of Flip Card -->
+    </div>
+    <footer class="social bgPurple">
+      <a class="icon" href="https://www.facebook.com" target="_blank">
+        <i class="fab fa-facebook-square purple"></i>
+      </a>
+      <a class="icon" href="https://twitter.com/" target="_blank">
+        <i class="fab fa-twitter-square purple"></i>
+      </a>
+      <a class="icon" href="https://www.instagram.com/" target="_blank">
+        <i class="fab fa-instagram purple"></i>
+      </a>
+      <br /><br />
+      <div class="copyright">
+        <p class="fontXSmall">&copy;MenuMaker 2019</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+  </body>
+</html>
